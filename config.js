@@ -5,16 +5,16 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Hyper Bump",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=1009957929174171658&permissions=8&scope=bot",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Bump",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Allows you to advertising your server to all servers that use a Hyper Bump",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
@@ -38,19 +38,13 @@ const config = {
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  serverCount: 86, //-  - Your
+  memberCount: 3254, //--   - Bot
+  executedCommand: 12487, //--  - Stats
+  availableCommand: 14, //---   - Here
   //Do not change if you don't know about them
-  faceBookLogo: (
-    <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
-  ),
   discordLogo: (
     <FaDiscord className="h-10 w-10 text-[#738adb] hover:scale-125 easeIn cursor-pointer" />
-  ),
-  youTubeLogo: (
-    <BsYoutube className="h-10 w-10 text-[#FF0000] hover:scale-125 easeIn cursor-pointer" />
   ),
   //----------------------------------------------------------------
   // Your social handle links
@@ -58,7 +52,7 @@ const config = {
   twitterLink: "https://twitter.com",
   mediumLink: "https://medium.com/",
   facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
+  discordLink: "https://discord.gg/weyNpPACm3",
   youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
 };
 
